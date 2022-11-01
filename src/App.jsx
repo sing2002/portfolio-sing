@@ -104,7 +104,7 @@ function App() {
             <p style={{ fontSize: 15, padding: 5 }}>
               <p style={{ fontSize: 18, }}>
                 <b>  Hi :)</b> </p><br />
-              👋 I'm Davina Griss. Fictional person for preview purposes :)
+              👋 I'm Sing. Fictional person for preview purposes :)
               I'm working with newest front-end frameworks like Angular,
               React and Vue. What you are seeing now is portfolio template from
               Dorota1997. If you like this portfolio template, make sure to ⭐
@@ -113,7 +113,6 @@ function App() {
             </p>
 
           </Grid>
-
         </Grid>
       </div>
       <div

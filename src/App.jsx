@@ -125,8 +125,100 @@ function App() {
         <br />
         <center>
           <span>PROJECTS</span>
-        </center>
+        </center><br /><br />
+        <Grid container >
+
+
+          <Grid item xs={4} style={{ padding: 12 }} >
+            <center>
+
+
+              <div style={{
+                boxShadow: "rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px",
+                backgroundColor: "white",
+                maxWidth: 350,
+                padding: 20,
+                height: "300px",
+                cursor: 'pointer',
+                height: "325px",
+              }}>
+                <img src="cosmetic.jpg" alt="" width="100%" height={210} />
+                <div style={{ paddingLeft: "110px", paddingRight: "110px" }}>
+                  <div style={{
+                    fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
+                  }}>2022</div>
+                </div>
+                <p>cosmetic</p>
+
+              </div>
+
+            </center>
+
+          </Grid>
+
+
+          <Grid item xs={4} style={{ padding: 12 }} >
+            <center>
+              <div style={{
+
+                cursor: 'pointer',
+                boxShadow: "rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px",
+                // height: "300px",
+                backgroundColor: "white",
+                maxWidth: 350,
+                padding: 20,
+              }}>
+                <img src="photographyPhoto.jpg" alt="" width="100%" height={210} />
+                <div style={{ paddingLeft: "110px", paddingRight: "110px" }}>
+                  <div style={{
+                    fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
+                  }}>2022</div>
+                </div>
+                <p>PHOTOGRAPY</p>
+
+                {/* <span style={{
+                  backgroundColor: '#696969',
+                  color: 'white',
+                  padding: '8px 15px 2px',
+                  fontSize: '16px',
+                  // borderTop: '8px  solid',
+                  position: "static",
+                  zIndex: "-800",
+                  borderRadius: "5px",
+
+
+                }}>2020</span> */}
+              </div>
+            </center>
+          </Grid>
+          <Grid item xs={4} style={{ padding: 12 }} >
+            <center>
+              <div style={{
+                height: "325px",
+                boxShadow: "rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px",
+                maxWidth: 350,
+                backgroundColor: "white",
+                cursor: 'pointer',
+                padding: 20,
+
+              }}>
+                <img src="food.jpg" alt="" width="100%" height={210} />
+                <div style={{ paddingLeft: "110px", paddingRight: "110px" }}>
+                  <div style={{
+                    fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
+                  }}>2022</div>
+                </div>
+                <p>comentator food</p>
+
+
+
+              </div>
+            </center>
+          </Grid>
+
+        </Grid>
       </div>
+
       <div
         style={{
           backgroundColor: "black",

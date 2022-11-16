@@ -1,16 +1,18 @@
 import { IconButton, Grid } from "@mui/material";
-export default function Section3() {
+export default function Section3({ isLao, onSetIsLao }) {
+
     return (
         <div
             style={{
                 backgroundColor: "#e9d5a1",
                 width: "100%",
                 height: "80vh",
-                fontFamily: ' Courier New'
+                fontFamily: ' Courier New',
+
             }}>
             <br />
             <center>
-                <span>PROJECTS</span>
+                <span> {isLao ? 'ໂຄງການ' : 'PROJECTS'}</span>
             </center><br /><br />
             <Grid container >
 
@@ -34,7 +36,7 @@ export default function Section3() {
                                     fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
                                 }}>2022</div>
                             </div>
-                            <p>cosmetic</p>
+                            <p> {isLao ? 'ເຄື່ອງສຳອາງ ' : 'cosmetic'} </p>
 
                         </div>
 
@@ -60,7 +62,7 @@ export default function Section3() {
                                     fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
                                 }}>2022</div>
                             </div>
-                            <p>PHOTOGRAPY</p>
+                            <p>{isLao ? 'ຕາກ້ອງ' : 'PHOTOGRAPY'} </p>
 
                         </div>
                     </center>
@@ -82,7 +84,7 @@ export default function Section3() {
                                     fontSize: "5px", backgroundColor: "gray", color: 'white', borderRadius: "5px",
                                 }}>2022</div>
                             </div>
-                            <p>comentator food</p>
+                            <p> {isLao ? 'ນັກຊິມອາຫານ' : 'comentator food'} </p>
 
 
 

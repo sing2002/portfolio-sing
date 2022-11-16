@@ -1,5 +1,5 @@
 import { IconButton, Grid } from "@mui/material";
-export default function Section4() {
+export default function Section4({ isLao, setIsLao }) {
     return (
         <div
             style={{
@@ -11,7 +11,7 @@ export default function Section4() {
             <center>
                 <div >
 
-                    <p style={{ color: "white" }}>skills</p>
+                    <p style={{ color: "white" }}> {isLao ? 'ທັກສະ' : 'skills'}</p>
 
                 </div><br />
             </center>

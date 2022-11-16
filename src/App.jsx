@@ -12,7 +12,15 @@ import Section2 from "./components/section2";
 import Section3 from "./components/section3";
 import Section4 from "./components/section4";
 import Foodter from "./components/foodter";
+import { useState } from 'react';
+
 function App() {
+  const [isLao, setIsLao] = useState(false);
+
+  function onSetIslao(value) {
+    setIsLao(value);
+  }
+
   return (
     <div
       style={{
@@ -21,10 +29,10 @@ function App() {
         fontFamily: ' Courier New'
       }}
     >
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+      <Section1 isLao={isLao} onSetIsLao={onSetIslao} />
+      <Section2 isLao={isLao} onSetIsLao={onSetIslao} />
+      <Section3 isLao={isLao} onSetIsLao={onSetIslao}/>
+      <Section4 isLao={isLao} onSetIsLao={onSetIslao}/>
       <Foodter />
 
     </div >
